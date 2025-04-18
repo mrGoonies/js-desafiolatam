@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8ecae6;
+    margin: 0;
+    padding: 20px;
+    /* Center elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.card {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 500px;
+    transition: transform 0.2s;
+
+    img {
+        width: 300px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #023047;
+        font-weight: bold;
+    }
+
+    #price-el {
+        font-size: 24px;
+        color: #fb8500;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: #fb8500;
+        color: white;
+        border: none;
+        padding: 8px 10px;
+        margin: 10px 0 0 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #023047;
+        }
+    }
+}
