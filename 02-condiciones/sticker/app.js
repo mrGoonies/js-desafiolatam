@@ -42,7 +42,8 @@ validateBtn.addEventListener("click", function() {
 
     if (total === 0) {
         messageEl.textContent = "You must request at least one gift sticker"
-
+        messageEl.style.color = "#ccc"
+        
     }else if (total <= 10) {
         messageEl.textContent = "Perfect, we'll get it to your home as soon as possible!"
         messageEl.style.color = "green"
