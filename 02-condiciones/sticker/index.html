@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticker Gift</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Sticker Gift</h1>
+    <h3>Select quantity of stickers to order (max 10 stickers):</h3>
+    <div class="stickers">
+
+        <div class="stickers__item">
+            <img src="./github.jpg" alt="github logo">
+            <p class="stickers__item--title">GitHub</p>
+            <input type="number" name="sticker-input-1" id="sticker-1-el" min="0" max="10" value="0">
+        </div>
+        <div class="stickers__item">
+            <img src="./stack front.jpg" alt="sticker for css; html; js and boostrap">
+            <p class="stickers__item--title">Front tech stack</p>
+            <input type="number" name="sticker-input-2" id="sticker-2-el" min="0" max="10" value="0">
+        </div>
+        <div class="stickers__item">
+            <img src="./git.jpg" alt="sticker for git">
+            <p class="stickers__item--title">Git</p>
+            <input type="number" name="sticker-input-3" id="sticker-3-el" min="0" max="10" value="0">
+        </div>
+    </div>
+
+    <p id="message-el"></p>
+    <button id="validate-btn">Validate</button>
+
+    <footer>
+        <p>Created by <a href="https://github.com/mrGoonies" target="_blank">mrGoonies</a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
